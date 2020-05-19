@@ -1,0 +1,35 @@
+.wprop {
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+body {
+	@extend .wprop;
+}
+
+header {
+	display: flex;
+	background-color: #DEB887;
+	div {
+		margin: 2%;
+		display: flex;
+		justify-content: space-between;
+		width: 60%;
+		div {
+		}
+	}
+}
+
+.greatest {
+	height: 1000px;
+	display: flex;
+	background-image: url("img/trump.jpg") center center fixed;
+	background-size: cover;
+	div {
+		display: flex;
+		div {
+			transform:rotate(-90deg)
+		}
+	}
+}
