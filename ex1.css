@@ -13,13 +13,23 @@ header {
     width: 60%; }
 
 .greatest {
-  height: 1000px;
+  height: 700px;
+  width: 100%;
   display: flex;
-  background-image: url("img/trump.jpg") center center fixed;
-  background-size: cover; }
+  background-image: url("img/trump.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%; }
   .greatest div {
-    display: flex; }
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
     .greatest div div {
-      transform: rotate(-90deg); }
+      height: 100%;
+      width: 50%; }
+      .greatest div div .donald {
+        display: flex;
+        justify-content: center; }
 
 /*# sourceMappingURL=ex1.css.map */
