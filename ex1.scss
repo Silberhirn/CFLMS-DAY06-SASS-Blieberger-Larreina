@@ -4,7 +4,7 @@
 	margin: 0 auto;
 }
 
-$relheight: 720 / 1280 * 100%;
+$relheight: 720 / 1280 * 1200px;
 
 
 body {
@@ -34,13 +34,19 @@ header {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		height: 680px;
+		height: 50vh;
 		div {
 			display: flex;
 			justify-content: center;
-			height: 100%;
 			width: 17%;
 			text-align: center;
+			p{ 
+				writing-mode: vertical-lr;
+				font-size: 1em;
+			}
+			h1 {
+				font-size: 1em;
+			}
 		}
 	}
 }

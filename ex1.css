@@ -22,12 +22,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 680px; }
+    height: 50vh; }
     .greatest div div {
       display: flex;
       justify-content: center;
-      height: 100%;
       width: 17%;
       text-align: center; }
+      .greatest div div p {
+        writing-mode: vertical-lr;
+        font-size: 1em; }
+      .greatest div div h1 {
+        font-size: 1em; }
 
 /*# sourceMappingURL=ex1.css.map */
